@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김범준의 용어사전</title>
+    <link rel="stylesheet" href="TodoList.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>김범준의 용어사전</h1>
+            <button id="addTermBtn">용어 추가</button>
+        </header>
+        <ul id="termList"></ul>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>용어 추가</h2>
+            <input type="text" id="newTerm" placeholder="새 용어 입력">
+            <button id="saveTermBtn">저장</button>
+        </div>
+    </div>
+
+    <script src="TodoList.js"></script>
+</body>
+</html>
